@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VNM — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">VNM<span>web</span></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <h1>Hello, I’m VNM.</h1>
+      <p>Aerospace engineering grad exploring philosophy, creativity, and technology.</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> VNM</div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
